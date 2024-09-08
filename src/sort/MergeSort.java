@@ -5,7 +5,9 @@ import java.util.Arrays;
 public class MergeSort {
     /**
      * 归并排序 O(NlogN)
-     *
+     * 左边排好序 右边排好序 整体有序
+     * 整体有序使用了外排序 额外空间复杂度O(N)
+     * 递归计算时间复杂度 master公式
      * @param arr
      */
     public static void mergeSort(int[] arr) {
