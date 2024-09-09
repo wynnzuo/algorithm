@@ -6,6 +6,7 @@ import java.util.Arrays;
  * 快速排序算法
  * 随机选数 时间复杂度O(NlogN)
  * 不然 时间复杂度O(N²)
+ * 空间复杂度O(logN)
  */
 public class QuickSort {
     public static void quickSort(int[] arr) {
