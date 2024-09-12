@@ -1,4 +1,4 @@
-package algo;
+package list;
 
 import java.util.Stack;
 
